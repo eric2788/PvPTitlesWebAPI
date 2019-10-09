@@ -1,0 +1,5 @@
+name: PvPTitlesWebAPI
+version: ${project.version}
+api-version: "1.13"
+depend: [PvpTitles]
+main: com.ericlam.mc.pvptitles.webapi.main.PvPWebAPI

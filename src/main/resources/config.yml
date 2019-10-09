@@ -1,0 +1,15 @@
+# the port that restful will run on
+web-port: 7000
+# whether to allow all IP access your restful
+cors-enable-all: true
+# if not, specifics some IPs
+cors-allowed-list:
+  - 127.0.0.1
+# max limit of players data of pvptitles
+max-limit: 100
+
+# the token value will generate after the server run
+# if you remove the path, it will auto generate the new token
+# the token only need to be used when refreshing data
+# after refreshing data, it will auto generate a new token and save to the config
+token:
